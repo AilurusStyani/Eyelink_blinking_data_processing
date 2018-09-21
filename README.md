@@ -1,23 +1,23 @@
 # Eyelink-blinking-data-processing
-It is a Matlab function that could recognize and eliminate Eyelink data during blinking and squinting. In the meanwhile, this function can recognize some situations that may influence your results that are listed below:
+This is a Matlab function that could recognize and eliminate Eyelink data during blinking and squinting. In the meanwhile, this function can recognize some situations that may influence your results which are listed below:
 
-0. no eye blink detected;
-1. small pupil size, the experiments may not operated in a strict darkness room;
-2. eye closeing in end;
-3. eye closeing in recording begining;
-4. sudden increase / decrease;
-5. at least one peak within/just before/soon after the eye blink;
-6. not firmly closeing in eye blink or just squinting;
-7. A long time with eye closing (> 1/5 of totle);
-8. have a minimum of pupil size & squinting detected;
-9. still have unknow rifts in x and y pixel, that should be caused by not regorous operation or other unknown conditions.
-10. Still lots of points outside the screen. It may be caused by no correctly calibration & validation, or may be the subject squinting for too long (>1s).
-11. Still have unknown noisy point (sudden decrease to zero for ~1 to 20ms, discontinuously), this maybe caused by Eyelink.
+0. Well play! No eye blink detected;
+1. The pupil size is a little small, which may because the experiments not operated in a strict darkness room (you can adjest the threshold if you can find which is it :) );
+2. Eye closeing in recording ending;
+3. Eye closeing at the begining of recording;
+4. The pupil size may be sudden increasing / decreasing;
+5. At least one peak within/just before/soon after the eye blink;
+6. Not firmly closeing in eye blink or just squinting;
+7. Too long time with eye closing (the eliminated data more than 1/5 in total);
+8. Have a minimum of pupil size & squinting detected (less than 1000 ms);
+9. Still have unknow rifts in x and y pixel, that could be caused by poor focusing by Eyelink or other unknown conditions (not so reliable by it just happened).
+10. Still lots of points outside the screen. It may be caused by no correctly calibration & validation, or maybe the subject squint for too long (>1s).
+11. Still have unknown noisy point (sudden decrease to zero for ~1 to 20ms, discontinuously), not sure why it happened.
 
 You need global SCREEN.width and SCREEN.height as screen width and height in pixel, 1280x1024 in default.
-The function BlinkNoisyPurify.m can purify the data in multiple times untill no more blink points were detected. The function blink_treatment_pupil1.m can only purify once, that continuesly blinking in several times may not be fully purified.
+The function BlinkNoisyPurify.m can purify the data in multiple times untill no more blink points are detected. The function blink_treatment_pupil1.m can only purify once, that continuesly blinking in several times may not be fully purified.
 
-For any requirement and suggestion, please feel free to comment in [issues](https://github.com/softdrinks/Eyelink-blinking-data-processing/issues).
+For any demand and suggestion, please feel free to comment in [issues](https://github.com/softdrinks/Eyelink-blinking-data-processing/issues). Anyone who wanna more discussion on how to process the data from Eyelink are very welcome!
 
 Here are two samples:
 
