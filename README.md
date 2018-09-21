@@ -18,18 +18,24 @@ You need global SCREEN.width and SCREEN.height as screen width and height in pix
 The function BlinkNoisyPurify.m can purify the data in multiple times unless no more blink points were detected. The function blink_treatment_pupil1.m can only purify once, that continuesly blinking with several times may not be fully purified.
 
 Here are two samples:
+
 ![sample_1_before](https://github.com/softdrinks/Eyelink-blinking-data-processing/blob/master/sample/sample1_before.jpg)
+
 Single purifying (before)
 
 ![sample_1_after](https://github.com/softdrinks/Eyelink-blinking-data-processing/blob/master/sample/sample1_after.jpg)
+
 Single purifying (after)
 
 
 ![multi_before](https://github.com/softdrinks/Eyelink-blinking-data-processing/blob/master/sample/sample2_1st.jpg)
+
 Multiple puritying (before)
 
 ![multi_first_time](https://github.com/softdrinks/Eyelink-blinking-data-processing/blob/master/sample/sample2_2nd.jpg)
+
 Multiple purifying (first time)
 
 ![multi_after](https://github.com/softdrinks/Eyelink-blinking-data-processing/blob/master/sample/sample2_after.jpg)
+
 Multiple purifying (after)
