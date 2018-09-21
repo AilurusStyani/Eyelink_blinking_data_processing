@@ -17,6 +17,8 @@ It is a Matlab function that could recognize and eliminate Eyelink data during b
 You need global SCREEN.width and SCREEN.height as screen width and height in pixel, 1280x1024 in default.
 The function BlinkNoisyPurify.m can purify the data in multiple times untill no more blink points were detected. The function blink_treatment_pupil1.m can only purify once, that continuesly blinking in several times may not be fully purified.
 
+For any requirement and suggestion, please feel free to comment in [issues](./issues).
+
 Here are two samples:
 
 Sample 1:
