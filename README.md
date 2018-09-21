@@ -2,7 +2,7 @@
 This is a Matlab function that could recognize and eliminate Eyelink data during blinking and squinting. In the meanwhile, this function can recognize some situations that may influence your results which are listed below:
 
 0. Well play! No eye blink detected;
-1. The pupil size is a little small, which may because the experiments not operated in a strict darkness room (you can adjest the threshold if you can find which is it :) );
+1. The pupil size is a little small, which may because the experiments not operated in a strict darkness room (you can adjest the threshold if you can find which is it :-);
 2. Eye closeing in recording ending;
 3. Eye closeing at the begining of recording;
 4. The pupil size may be sudden increasing / decreasing;
