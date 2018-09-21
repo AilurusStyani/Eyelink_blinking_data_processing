@@ -19,22 +19,33 @@ The function BlinkNoisyPurify.m can purify the data in multiple times unless no 
 
 Here are two samples:
 
+Sample 1:
+
 ![sample_1_before](https://github.com/softdrinks/Eyelink-blinking-data-processing/blob/master/sample/sample1_before.jpg)
 
 Single purifying (before)
+
+
 
 ![sample_1_after](https://github.com/softdrinks/Eyelink-blinking-data-processing/blob/master/sample/sample1_after.jpg)
 
 Single purifying (after)
 
 
+
+Sample 2
+
 ![multi_before](https://github.com/softdrinks/Eyelink-blinking-data-processing/blob/master/sample/sample2_1st.jpg)
 
 Multiple puritying (before)
 
+
+
 ![multi_first_time](https://github.com/softdrinks/Eyelink-blinking-data-processing/blob/master/sample/sample2_2nd.jpg)
 
 Multiple purifying (first time)
+
+
 
 ![multi_after](https://github.com/softdrinks/Eyelink-blinking-data-processing/blob/master/sample/sample2_after.jpg)
 
