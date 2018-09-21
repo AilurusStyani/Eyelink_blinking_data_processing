@@ -15,7 +15,7 @@ It is a Matlab function that could recognize and eliminate Eyelink data during b
 11. Still have unknown noisy point (sudden decrease to zero for ~1 to 20ms, discontinuously), this maybe caused by Eyelink.
 
 You need global SCREEN.width and SCREEN.height as screen width and height in pixel, 1280x1024 in default.
-The function BlinkNoisyPurify.m can purify the data in multiple times unless no more blink points were detected. The function blink_treatment_pupil1.m can only purify once, that continuesly blinking with several times may not be fully purified.
+The function BlinkNoisyPurify.m can purify the data in multiple times untill no more blink points were detected. The function blink_treatment_pupil1.m can only purify once, that continuesly blinking in several times may not be fully purified.
 
 Here are two samples:
 
