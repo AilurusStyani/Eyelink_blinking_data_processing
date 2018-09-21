@@ -10,7 +10,7 @@ It is a Matlab function that could recognize and eliminate Eyelink data during b
 7. A long time with eye closing (> 1/5 of totle);
 8. have a minimum of pupil size & squinting detected;
 9. still have unknow rifts in x and y pixel, that should be caused by not regorous operation or other unknown conditions.
-10.Still lots of points outside the screen. It may be caused by no correctly calibration & validation, or may be the subject squinting for too long (>1s)
+10.Still lots of points outside the screen. It may be caused by no correctly calibration & validation, or may be the subject squinting for too long (>1s).
 11.Still have unknown noisy point (sudden decrease to zero for ~1 to 20ms, discontinuously), this maybe caused by Eyelink.
 
 You need global SCREEN.width and SCREEN.height as screen width and height in pixel, 1280x1024 in default.
