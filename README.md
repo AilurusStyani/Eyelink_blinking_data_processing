@@ -10,8 +10,8 @@ This is a Matlab function that could recognize and eliminate Eyelink data during
 6. Not firmly closeing in eye blink or just squinting;
 7. **Too long time with eye closing (the eliminated data more than 1/5 in total);**
 8. **Have a minimum of pupil size & squinting detected (less than 1000 ms);**
-9. **Still have unknow rifts in x and y pixel, that could be caused by poor focusing by Eyelink or other unknown conditions (not so reliable by it just happened).**
-10. **Still lots of points outside the screen. It may be caused by no correctly calibration & validation, or maybe the subject squint for too long (>1s).**
+9. **Still have unknow rifts in x and y pixel, that could be caused by poor focusing by Eyelink or others like CR or pupil threshold.**
+10. **Still lots of points outside the screen. It may be caused by not correctly calibration & validation, or maybe the subject squint for too long (>1s).**
 11. Some unknown noisy points are detected (sudden decrease to zero for ~1 to 20ms, discontinuously), not sure why they happened.
 
 You need global SCREEN.width and SCREEN.height as screen width and height in pixel, 1280x1024 in default.
