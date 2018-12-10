@@ -1,3 +1,3 @@
-There are some graph for the Eyelink data before and after blink purifying by this function. Blue line for the pupil size in pixel,
-red line for x pixel and green line for y pixel.
+There are some graph for the Eyelink data before and after blink purifying by this function. Blue line is for the pupil size,
+red line for pixel position in x axis and green line for y axis.
 The graph x axis indicate the time, unit ms, and y axis indicate pixel number.
