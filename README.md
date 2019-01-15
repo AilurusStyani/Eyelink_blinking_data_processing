@@ -13,12 +13,11 @@ This is a Matlab function that could recognize and eliminate Eyelink data during
 9. **Still have unknow rifts in x and y pixel, that could be caused by poor focusing by Eyelink or others like CR or pupil threshold.**
 10. **Still lots of points outside the screen. It may be caused by not correctly calibration & validation, maybe the subject squint for too long (>1s), or the data removed period before / after the blink need to be extend. The removed period was 150 ms before blinks and 150 ms after blinks in default.**
 11. Some unknown noisy points are detected (sudden decrease to zero for ~1 to 20ms, discontinuously), not sure why they happened.
-12.Input data were too short ( <=50 samples, the function will output empty value) to analyse by this function.
+12. Input data were too short ( <=50 samples, the function will output empty value) to analyse by this function.
 
-You need global SCREEN.width and SCREEN.height as screen width and height in pixel, 1280x1024 in default.
-The function BlinkNoisyPurify.m can purify the data in multiple times untill no more junk data are detected. The function blink_treatment_pupil1.m can only purify once, that continuesly blinking in several times may not be fully purified.
+You need global SCREEN.width and SCREEN.height as screen width and height in pixel, 1280x1024 in default. Distance from subject's eye to screen center and the screen physical width with height for display PC also need adjustment in this function.
 
-**The function BlinkNoisePurify_NaN.m, that will replace removed x-y gaze position and pupil size values with NaN value but remain time line, was more recommended at present.**
+The function BlinkNoisyPurify.m can purify the data in multiple times untill no more junk data are detected. The function blink_treatment_pupil1.m can only purify once, that continuesly blinking in several times may not be fully purified. **The function BlinkNoisePurify_NaN.m, that will replace removed x-y gaze position and pupil size values with NaN value but remain time line, was more recommended at present.**
 
 For any demand and suggestion, please feel free to comment in [issues](https://github.com/softdrinks/Eyelink-blinking-data-processing/issues). Anyone who wanna more discussion on how to process the data from Eyelink are very welcome!
 
