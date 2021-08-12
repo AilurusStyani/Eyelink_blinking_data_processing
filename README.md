@@ -1,4 +1,4 @@
-# Eyelink-blinking-data-processing
+# Eyelink_blinking_data_processing
 This is a Matlab function that could recognize and eliminate Eyelink data during blinking and squinting based on pupil size. In the meanwhile, this function can recognize some situations that may influence your results which are listed below:
 
 0. Well play! No eye blink detected;
